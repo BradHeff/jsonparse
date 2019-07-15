@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "cat": "something-1",
+        "image": "image1.jpg",
+        "list": {
+            "title": "some title-1",
+            "link": "https://som1.com"
+        }
+    },
+    {
+        "id": 2,
+        "cat": "something-2",
+        "image": "image2.jpg",
+        "list": {
+            "title": "some title-2",
+            "link": "https://some2.com"
+        }
+    },
+    {
+        "id": 3,
+        "cat": "something-3",
+        "image": "image3.jpg",
+        "list": {
+            "title": "some title-3",
+            "link": "https://some3.com"
+        }
+    }
+]

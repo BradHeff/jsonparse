@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.card {
+  border: 5px solid #fcfcfc;
+  overflow: hidden;
+  -moz-transition: all .35s ease-in-out;
+  -ms-transition: all .35s ease-in-out;
+  -o-transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+  transition: all .35s ease-in-out;
+}
+
+.card:hover {
+  border-color: #97c6ce;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.foot-icons {
+  outline: none;
+}
+.foot-icons i {
+  margin: 0;
+  color: #333;
+}
+
+.foot-icons i:hover {
+  color: rgb(41, 114, 136);
+}
+.image-container{ 
+  overflow: hidden;
+  position: relative; 
+}
+
+.image-container img{
+  -moz-transition: all ease-in-out .4s;
+  -ms-transition: all ease-in-out .4s;
+  -o-transition: all ease-in-out .4s;
+  -webkit-transition: all ease-in-out .4s;
+  transition: all ease-in-out .4s;
+}
+
+.rotateIn-effect:hover img{
+  -moz-transform: rotate(8deg) scale(1.4);
+  -ms-transform: rotate(8deg) scale(1.4);
+  -o-transform: rotate(8deg) scale(1.4);
+  -webkit-transform: rotate(8deg) scale(1.4);
+  transform: rotate(8deg) scale(1.4);
+   
+}

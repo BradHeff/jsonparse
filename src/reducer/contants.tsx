@@ -1,0 +1,11 @@
+export const PENDING = 'PENDING';
+export const SUCCESS = 'SUCCESS';
+export const ERROR = 'ERROR';
+export const SET_LINK = 'SET_LINK';
+export const SET_CAPTION = 'SET_CAPTION';
+export const SET_CLICK = 'SET_CLICK';
+export const SET_BTN_LINK = 'SET_BTN_LINK';
+export const SET_TITLE = 'SET_TITLE';
+export const SET_ID = 'SET_ID';
+export const SET_IMAGE = 'SET_IMAGE';
+export const SET_CAT = 'SET_CAT';
