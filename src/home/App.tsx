@@ -55,7 +55,7 @@ const HomeApp = ({
     let count = 0;
     const cards = Object.keys(items).map((user: any, i: number) => {
         const item = items[i];
-        count += 200;
+        count += 300;
         const cimage = process.env.PUBLIC_URL + "assets/images/" + item.image;
         return (        
             <div 
