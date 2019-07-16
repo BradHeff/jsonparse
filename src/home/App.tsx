@@ -113,6 +113,9 @@ const HomeApp = ({
       });
   return(
         <div className="container">
+            <div className="row justify-content-center align-items-center">
+                {cards}
+            </div>
             <TopSec
                 btnlink={btnlink}
                 title={title}
@@ -120,9 +123,7 @@ const HomeApp = ({
                 image={image}
                 cat={cat}
             />
-            <div className="row justify-content-center align-items-center">
-                {cards}
-            </div>
+            
         </div>
         );
 }
