@@ -1,12 +1,14 @@
 import React from 'react';
 import aos from 'aos';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 
 import { setLink, setCaption, setClick, fetchJSON,
   setBtnLink, setTitle, setImage, setID, setCat } from '../reducer/action';
 
 import { connect } from 'react-redux';
 import Home from '../home/App';
+
+import Logo from '../assets/images/logo.svg';
 
 const mapStateToProps = (state: any) => {
    return {
@@ -85,20 +87,13 @@ class App extends React.Component<baseProps, baseState> {
       <div className="App">
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <div className="container">
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <div className="navbar-brand d-inline-flex">
+              <img src={Logo} alt="Navbar Logo" />
+              <h3 className="m-0">React Sample</h3>
+            </div>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="mr-auto">
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
-                
-              </Nav>
-              <Nav>
-                <Nav.Link href="#deets">More deets</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
-                  Dank memes
-                </Nav.Link>
-              </Nav>
+              
             </Navbar.Collapse>
           </div>
         </Navbar>

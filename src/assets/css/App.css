@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+.navbar-brand img {
+  height: 40px;
+}
 .card {
   border: 5px solid #fcfcfc;
   overflow: hidden;
