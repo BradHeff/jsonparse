@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Header from './components/Header';
 import TopSec from './components/TopSec';
 
 const HomeApp = ({
@@ -72,7 +73,6 @@ const HomeApp = ({
                 </div>
                 <div className="card-body">
                   <h1 className="text-black-50 mb-1">{item.cat}</h1>
-                  <p className="text-black-50 mb-2">{item.list.title}</p>
                     <a 
                         href={item.list.link} 
                         onClick={
@@ -112,18 +112,21 @@ const HomeApp = ({
         );
       });
   return(
-        <div className="container">
-            <div className="row justify-content-center align-items-center">
-                {cards}
+        <div>
+            <Header />
+            <div className="container mt-4">
+                <div className="row justify-content-center align-items-center">
+                    {cards}
+                </div>
+                <TopSec
+                    btnlink={btnlink}
+                    title={title}
+                    id={id}
+                    image={image}
+                    cat={cat}
+                />
+                
             </div>
-            <TopSec
-                btnlink={btnlink}
-                title={title}
-                id={id}
-                image={image}
-                cat={cat}
-            />
-            
         </div>
         );
 }

@@ -5,6 +5,21 @@
 .navbar-brand img {
   height: 40px;
 }
+
+.header {
+  background: url(../images/header.jpg);
+  
+}
+.header .container {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 4rem 0;
+  
+}
 .card {
   border: 5px solid #fcfcfc;
   overflow: hidden;

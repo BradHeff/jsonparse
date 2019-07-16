@@ -5,9 +5,79 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color:#fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.z-index {
+  z-index: 9;
+}
+.bg-rules {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.after-overlay-1, 
+.after-overlay-2, 
+.after-overlay-3, 
+.after-overlay-4, 
+.after-overlay-5, 
+.after-overlay-6, 
+.after-overlay-7, 
+.after-overlay-8, 
+.after-overlay-9 {
+  position: relative;
+
+}
+
+.after-overlay-1::after, 
+.after-overlay-2::after, 
+.after-overlay-3::after, 
+.after-overlay-4::after, 
+.after-overlay-5::after, 
+.after-overlay-6::after, 
+.after-overlay-7::after, 
+.after-overlay-8::after, 
+.after-overlay-9::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.after-overlay-1::after {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.after-overlay-2::after{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.after-overlay-3::after{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.after-overlay-4::after{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.after-overlay-5::after{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.after-overlay-6::after{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.after-overlay-7::after{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.after-overlay-8::after {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.after-overlay-9::after{
+  background-color: rgba(0, 0, 0, 0.9);
 }

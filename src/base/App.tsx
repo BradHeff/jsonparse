@@ -97,24 +97,22 @@ class App extends React.Component<baseProps, baseState> {
             </Navbar.Collapse>
           </div>
         </Navbar>
-        <header className="App-header">          
-          <Home
-            onSetLink={this.props.onSetLink}
-            onSetCaption={this.props.onSetCaption}
-            onSetClick={this.props.onSetClick}
-            items={this.props.items}
-            onSetBtnLink={this.props.onSetBtnLink}
-            onSetTitle={this.props.onSetTitle}
-            onSetID={this.props.onSetID}
-            onSetImage={this.props.onSetImage}
-            onSetCat={this.props.onSetCat}
-            btnlink={this.props.btnlink}
-            title={this.props.title}
-            id={this.props.id}
-            image={this.props.image}
-            cat={this.props.cat}
-          />
-        </header>
+        <Home
+          onSetLink={this.props.onSetLink}
+          onSetCaption={this.props.onSetCaption}
+          onSetClick={this.props.onSetClick}
+          items={this.props.items}
+          onSetBtnLink={this.props.onSetBtnLink}
+          onSetTitle={this.props.onSetTitle}
+          onSetID={this.props.onSetID}
+          onSetImage={this.props.onSetImage}
+          onSetCat={this.props.onSetCat}
+          btnlink={this.props.btnlink}
+          title={this.props.title}
+          id={this.props.id}
+          image={this.props.image}
+          cat={this.props.cat}
+        />
       </div>
     );
   }
